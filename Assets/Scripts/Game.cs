@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Game : MonoBehaviour
 {
@@ -78,6 +79,7 @@ public class Game : MonoBehaviour
     {
         _gameIsEnded = true;
         _player.Disable();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.LogError("Victory");
     }
     public void Lose()

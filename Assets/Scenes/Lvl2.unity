@@ -2884,7 +2884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _openDoor: 0
   _timerIsOn: 1
-  _timerValue: 100
+  _timerValue: 15
   _timerView: {fileID: 1910796155}
   _player: {fileID: 157217782}
   _exitFromLevel: {fileID: 1079131290}
