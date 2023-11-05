@@ -12863,6 +12863,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123024049}
     m_Modifications:
+    - target: {fileID: 2908693269078321732, guid: 3258b8bfce40f2d418c765a0483a23fb,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b2bd3e851d5e0e4e9a42ff765036c46, type: 2}
     - target: {fileID: 2908693269078321734, guid: 3258b8bfce40f2d418c765a0483a23fb,
         type: 3}
       propertyPath: doorTarget
@@ -13016,6 +13021,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 123024049}
     m_Modifications:
+    - target: {fileID: 4420671723504301353, guid: e2c5aecf0e2e35244b99f27f0924171a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8b2bd3e851d5e0e4e9a42ff765036c46, type: 2}
     - target: {fileID: 4420671723504301355, guid: e2c5aecf0e2e35244b99f27f0924171a,
         type: 3}
       propertyPath: m_RootOrder
