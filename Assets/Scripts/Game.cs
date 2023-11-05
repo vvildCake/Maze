@@ -80,12 +80,13 @@ public class Game : MonoBehaviour
         _gameIsEnded = true;
         _player.Disable();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-        Debug.LogError("Victory");
+        //Debug.LogError("Victory");
     }
     public void Lose()
     {
         _gameIsEnded = true;
         _player.Disable();
-        Debug.LogError("Lose");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //Debug.LogError("Lose");
     }
 }
